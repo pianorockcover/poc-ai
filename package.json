@@ -1,0 +1,14 @@
+{
+  "name": "poc-open-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "openai": "^3.2.1"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env node .",
+    "generate": "node parse.js"
+  }
+}
