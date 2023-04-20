@@ -22,7 +22,7 @@ Default limit is `3`, max is `1000`
 
 ## Data
 
-- raw-data.json - data dump from the prod scrapped mongodb table
+- raw-data.json - data dump from the prod's `Scrapped` Mongodb table
 - texts.json - clean descriptions array
 
 `parse.js` - Script to clear raw data and save to texts.json
