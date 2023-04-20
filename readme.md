@@ -1,8 +1,8 @@
 # PoC for Open AI API
 
-1. Copy .env.example to .env
+1. Copy `.env.example` to `.env`
 
-2. Insert api token
+2. Put api token to `.env`
 
 3. Install dependencies
 
@@ -18,11 +18,11 @@ yarn start <limit>
 
 Default limit is `3`, max is `1000`
 
-5. Result will be stored to result.csv
+5. Result will be stored to `result.csv` file
 
 ## Data
 
-- raw-data.json - scrapped table from mongodb
-- texts.json - cleared descriptions array
+- raw-data.json - data dump from the prod scrapped mongodb table
+- texts.json - clean descriptions array
 
-`parse.js` - Script to format raw data to texts.json
+`parse.js` - Script to clear raw data and save to texts.json
